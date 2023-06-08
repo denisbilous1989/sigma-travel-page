@@ -1,0 +1,117 @@
+.plane-section {
+  background-image: url('/sources/images/image-16.png');
+  background-position: 115% 90%;
+  background-repeat: no-repeat;
+  margin-bottom: 92px;
+
+  @media (min-width:768px) {
+    background: transparent;
+    margin-bottom: 92px;
+    }
+
+  .card {
+    display: block;
+    text-align: center;
+
+
+    @media (min-width:768px) {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      }
+
+    &__visual {
+      position: relative;
+      min-width: 49vw;
+
+      img:nth-child(odd) {
+        display: none;
+
+        @media (min-width:768px) {
+        display: block;
+        }
+      }
+
+
+      .plane-before,
+      .plane-after {
+        cursor: pointer;
+        position: absolute;
+      }
+
+      .plane-before {
+        top: 37px;
+        left: 8%;
+        width: 50px;
+
+        @media (min-width:768px) {
+          width: auto;
+          top: 12%;
+          left: 17%;
+          }
+
+        &:hover {
+          animation: movePlane 3s;
+        }
+      }
+
+      .plane-after {
+        top: 20%;
+        left: 87%;
+        z-index: -1;
+      }
+    }
+
+    &__body {
+      display: block;
+      max-width: 300px;
+      margin: 70px auto;
+
+      @media (min-width:768px) {
+        max-width: 500px;
+        display: flex;
+        }
+    }
+
+    &__header {
+
+      display: none;
+      font-size: 1.25rem;
+      font-weight: $font-weight-bold;
+      color: $red-background-color;
+      line-height: 1.5;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+
+      @media (min-width:768px) {
+        display: block;
+        }
+    }
+
+    &__title {
+      font-family: 'Volkhov', Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+      line-height: 1.85;
+      letter-spacing: -0.04em;
+      color: $heading-h1-color;
+      margin-bottom: 30px;
+      padding: 0 20px;
+
+      @media (min-width:768px) {
+        font-size: 2.1rem;
+        line-height: 1.06;
+        padding: 0;
+        }
+    }
+
+    &__text {
+      display: none;
+      line-height: 1.87;
+      margin-bottom: 34px;
+
+      @media (min-width:768px) {
+        display: block;
+        }
+    }
+  }
+}

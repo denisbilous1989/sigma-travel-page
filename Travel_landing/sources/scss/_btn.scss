@@ -1,0 +1,47 @@
+.btn {
+  color: #fff;
+  padding: 19px 26px;
+  font-family: 'Google Sans', Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.27;
+
+  &_orange {
+    background: #F1A501;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    transform: all 0.5s;
+
+    @media (min-width:768px) {
+      margin-right: 90px;
+      margin-bottom: 0;
+      }
+
+    &:hover {
+      background: $red-background-color;
+    }
+  }
+
+  &_red {
+    color: #686D77;
+    position: relative;
+    transition: all 0.5s;
+    transform: translateX(27px);
+
+    &:hover::before {
+      background: #F1A501;
+    }
+
+    &:before {
+      content: '\e901';
+      position: absolute;
+      font-family: 'icomoon';
+      top: 4%;
+      left: -30%;
+      color: #fff;
+      padding: 15px 15px 15px 20px;
+      background: $red-background-color;
+      border-radius: 50%;
+
+    }
+  }
+}

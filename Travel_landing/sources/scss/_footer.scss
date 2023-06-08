@@ -1,0 +1,146 @@
+#footer {
+  text-align: center;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: $font-weight-medium;
+  font-size: 1.125rem;
+  line-height: 1.27;
+  background-color: $main-background-color;
+
+  @media (min-width:768px) {
+    background: transparent;
+    }
+
+  .container {
+    padding: 0 8vw 27px 8vw;
+
+    @media (min-width:768px) {
+      padding: 0 2.6vw 0 3.47vw;
+      }
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .footer {
+    margin-bottom: 58px;
+
+    @media (min-width:768px) {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 84px;
+      }
+
+    &__item {
+      text-align: left;
+      padding: 20px 10px;
+
+      @media (min-width:768px) {
+        width: 20%;
+        }
+
+
+      &:first-child {
+        padding: 0px 110px 0 0;
+        
+
+        @media (min-width:768px) {
+          width: 25%;
+          padding: 0px 52px 0 0;
+          }
+      }
+
+
+      &:last-child {
+        padding: 25px 0 20px 10px;
+        text-align: center;
+
+        @media (min-width:768px) {
+          width: 25%;
+          }
+      }
+    }
+
+    &__title {
+      font-weight: $font-weight-bold;
+      color: $footer-heading-color;
+      font-size: 1.313rem;
+      line-height: 1.24;
+      margin-bottom: 34px;
+    }
+
+    &__text {
+      margin-bottom: 13px;
+    }
+
+    &__discription {
+      &_title {
+        font-weight: $font-weight-medium;
+        color: $heading-h1-color;
+        font-size: 2.75rem;
+        line-height: 1.5;
+        margin-bottom: 19px;
+      }
+
+      &_text {
+        font-size: 0.813rem;
+      }
+    }
+
+    &__icons {
+
+      margin-bottom: 35px;
+
+      a {
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 1.5rem;
+
+        .icon-Vector-12 {
+          color: $facebook-color;
+        }
+
+        .icon-Vector-13 {
+          color: $instagram-color;
+        }
+
+        .icon-Vector-14 {
+          color: $twitter-color;
+        }
+
+        .icon-Vector-15 {
+          color: $youtube-color;
+        }
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &__app {
+
+      a {
+        display: inline-block;
+        border-radius: 17.5px;
+        margin-right: 7px;
+      }
+
+      &_text {
+        font-size: 1.25rem;
+        margin-bottom: 16px;
+      }
+    }
+
+    &__rights {
+      margin-bottom: 79px;
+    }
+  }
+}

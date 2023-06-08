@@ -1,0 +1,112 @@
+.subscribe-section {
+  text-align: center;
+
+
+  @media (min-width:768px) {
+    background-image: url('/sources/images/image-17.png');
+    background-repeat: no-repeat;
+    background-position: 96% 90%;
+    padding-bottom: 100px;
+    }
+
+  &__wrapper {
+    position: relative;
+
+    @media (min-width:768px) {
+      background: rgba(223, 215, 249, 0.2);
+      border-radius: 129px 20px 20px 20px;
+      padding: 78px 10.41vw;
+      }
+
+    &::before,
+    &::after {
+
+      @media (min-width:768px) {
+        content: '';
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: contain;
+        }
+    }
+
+    &::before {
+      background-image: url('/sources/images/round-decor1.svg');
+      top: 30%;
+      left: 2%;
+      right: 0;
+      bottom: 0;
+      opacity: 0.1;
+      z-index: -1;
+    }
+
+    &::after {
+      background-image: url('/sources/images/round-decor2.svg');
+      top: 0%;
+      left: 84%;
+      right: 0px;
+      bottom: 27%;
+      opacity: 0.1;
+      z-index: -1;
+    }
+
+    .icon-Vector-9 {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+      padding: 12px 11px 11px 11px;
+      border-radius: 50%;
+      color: #FFF;
+      font-size: 2rem;
+      // transform: translate(0, 0);
+
+      @media (min-width:768px) {
+        transform: translate(40%, -40%);
+        font-size: 3rem;
+        top: 0;
+        right: 0;
+        padding: 16px 17px 14px 15px;
+        }
+    }
+  }
+
+  &__header {
+    display: none;
+    font-size: 2.063rem;
+    line-height: 1.63;
+    margin-bottom: 75px;
+
+    @media (min-width:768px) {
+      display: block;
+      }
+  }
+
+  &__input {
+    display: none;
+    padding: 25px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 2.63vw;
+    min-width: 29.2vw;
+
+    @media (min-width:768px) {
+      display: inline-block;
+      }
+
+    &::placeholder {
+      font-family: 'Montserrat';
+      font-weight: $font-weight-regular;
+      font-size: 0.875rem;
+      line-height: 1.2;
+      color: $placeholder-color;
+    }
+  }
+
+  &__btn {
+    padding: 23px 50px;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    cursor: pointer;
+    border: none;
+    margin-right: 0;
+  }
+}
