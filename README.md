@@ -1,1 +1,0 @@
-# sigma-travel-page

@@ -319,62 +319,62 @@ template {
 
 @font-face {
   font-family: "Volkhov";
-  src: url("/sources/fonts/volkhov-bold-webfont.woff2") format("woff2"), url("/sources/fonts/volkhov-bold-webfont.woff") format("woff");
+  src: url("../sources/fonts/volkhov-bold-webfont.woff2") format("woff2"), url("../sources/fonts/volkhov-bold-webfont.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/sources/fonts/poppins-bold-webfont.woff2") format("woff2"), url("/sources/fonts/poppins-bold-webfont.woff") format("woff");
+  src: url("../sources/fonts/poppins-bold-webfont.woff2") format("woff2"), url("../sources/fonts/poppins-bold-webfont.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/sources/fonts/poppins-medium-webfont.woff2") format("woff2"), url("/sources/fonts/poppins-medium-webfont.woff") format("woff");
+  src: url("../sources/fonts/poppins-medium-webfont.woff2") format("woff2"), url("../sources/fonts/poppins-medium-webfont.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/sources/fonts/poppins-regular-webfont.woff2") format("woff2"), url("/sources/fonts/poppins-regular-webfont.woff") format("woff");
+  src: url("../sources/fonts/poppins-regular-webfont.woff2") format("woff2"), url("../sources/fonts/poppins-regular-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("/sources/fonts/poppins-semibold-webfont.woff2") format("woff2"), url("/sources/fonts/poppins-semibold-webfont.woff") format("woff");
+  src: url("../sources/fonts/poppins-semibold-webfont.woff2") format("woff2"), url("../sources/fonts/poppins-semibold-webfont.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/sources/fonts/montserrat-regular-webfont.woff2") format("woff2"), url("/sources/fonts/montserrat-regular-webfont.woff") format("woff");
+  src: url("../sources/fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../sources/fonts/montserrat-regular-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Open sans";
-  src: url("/sources/fonts/opensans-semibold-webfont.woff2") format("woff2"), url("/sources/fonts/opensans-semibold-webfont.woff") format("woff");
+  src: url("../sources/fonts/opensans-semibold-webfont.woff2") format("woff2"), url("../sources/fonts/opensans-semibold-webfont.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Google Sans";
-  src: url("/sources/fonts/googlesans-medium-webfont.woff2") format("woff2"), url("/sources/fonts/googlesans-medium-webfont.woff") format("woff");
+  src: url("../sources/fonts/googlesans-medium-webfont.woff2") format("woff2"), url("../sources/fonts/googlesans-medium-webfont.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Google Sans";
-  src: url("/sources/fonts/googlesans-regular-webfont.woff2") format("woff2"), url("/sources/fonts/googlesans-regular-webfont.woff") format("woff");
+  src: url("../sources/fonts/googlesans-regular-webfont.woff2") format("woff2"), url("../sources/fonts/googlesans-regular-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "icomoon";
-  src: url("/sources/fonts/icomoon.eot?kyg6zq");
-  src: url("/sources/fonts/icomoon.eot?kyg6zq#iefix") format("embedded-opentype"), url("/sources/fonts/icomoon.ttf?kyg6zq") format("truetype"), url("/sources/fonts/icomoon.woff?kyg6zq") format("woff"), url("/sources/fonts/icomoon.svg?kyg6zq#icomoon") format("svg");
+  src: url("../sources/fonts/icomoon.eot?kyg6zq");
+  src: url("../sources/fonts/icomoon.eot?kyg6zq#iefix") format("embedded-opentype"), url("../sources/fonts/icomoon.ttf?kyg6zq") format("truetype"), url("../sources/fonts/icomoon.woff?kyg6zq") format("woff"), url("../sources/fonts/icomoon.svg?kyg6zq#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -459,7 +459,7 @@ body {
 }
 @media (min-width: 768px) {
   body {
-    background-image: url("/sources/images/bg-img.jpg");
+    background-image: url("../sources/images/bg-img.jpg");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 46%;
@@ -870,7 +870,7 @@ h4 {
 }
 
 .plane-section {
-  background-image: url("/sources/images/image-16.png");
+  background-image: url("../sources/images/image-16.png");
   background-position: 115% 90%;
   background-repeat: no-repeat;
   margin-bottom: 92px;
@@ -997,7 +997,7 @@ h4 {
 }
 @media (min-width: 768px) {
   .category-section {
-    background-image: url("/sources/images/image-16.png");
+    background-image: url("../sources/images/image-16.png");
     background-repeat: no-repeat;
     background-position: top right;
     margin-bottom: 100px;
@@ -1215,7 +1215,7 @@ h4 {
 
 .selling-section {
   text-align: center;
-  background-image: url("/sources/images/image-17.png");
+  background-image: url("../sources/images/image-17.png");
   background-repeat: no-repeat;
   background-position: -10vw 0;
 }
@@ -1285,7 +1285,7 @@ h4 {
   position: absolute;
   top: 30%;
   left: 82.5%;
-  background-image: url(/sources/images/Decore.svg);
+  background-image: url("../sources/images/Decore.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 50%;
@@ -1320,7 +1320,7 @@ h4 {
 
 .booking-section {
   padding: 100px 0 0 0;
-  background-image: url("/sources/images/image-16.png");
+  background-image: url("../sources/images/image-16.png");
   background-position: -14% -5%;
   background-repeat: no-repeat;
   margin-bottom: 71px;
@@ -1333,7 +1333,7 @@ h4 {
   }
 }
 .booking-section__wrapper {
-  background-image: url("/sources/images/image-17.png");
+  background-image: url("../sources/images/image-17.png");
   background-position: 100% 98%;
   background-repeat: no-repeat;
   padding: 0 0 100px 0;
@@ -1776,7 +1776,7 @@ h4 {
 }
 @media (min-width: 768px) {
   .subscribe-section {
-    background-image: url("/sources/images/image-17.png");
+    background-image: url("../sources/images/image-17.png");
     background-repeat: no-repeat;
     background-position: 96% 90%;
     padding-bottom: 100px;
@@ -1801,7 +1801,7 @@ h4 {
   }
 }
 .subscribe-section__wrapper::before {
-  background-image: url("/sources/images/round-decor1.svg");
+  background-image: url("../sources/images/round-decor1.svg");
   top: 30%;
   left: 2%;
   right: 0;
@@ -1810,7 +1810,7 @@ h4 {
   z-index: -1;
 }
 .subscribe-section__wrapper::after {
-  background-image: url("/sources/images/round-decor2.svg");
+  background-image: url("../sources/images/round-decor2.svg");
   top: 0%;
   left: 84%;
   right: 0px;

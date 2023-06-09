@@ -3,7 +3,7 @@
 
 
   @media (min-width:768px) {
-    background-image: url('/sources/images/image-17.png');
+    background-image: url('../sources/images/image-17.png');
     background-repeat: no-repeat;
     background-position: 96% 90%;
     padding-bottom: 100px;
@@ -30,7 +30,7 @@
     }
 
     &::before {
-      background-image: url('/sources/images/round-decor1.svg');
+      background-image: url('../sources/images/round-decor1.svg');
       top: 30%;
       left: 2%;
       right: 0;
@@ -40,7 +40,7 @@
     }
 
     &::after {
-      background-image: url('/sources/images/round-decor2.svg');
+      background-image: url('../sources/images/round-decor2.svg');
       top: 0%;
       left: 84%;
       right: 0px;
